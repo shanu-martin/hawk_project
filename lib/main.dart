@@ -55,12 +55,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       'https://i.ibb.co/C25n8q4/HK.png',
                       width: 400,
                       errorBuilder: (context, error, stackTrace) {
-                        return const Text(
-                          "Hawk",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.w800,
-                          ),
+                        return const Image(
+                          image: AssetImage('assets/Images/hawk.png'),
                         );
                       },
                     ),
